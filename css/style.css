@@ -1,0 +1,31 @@
+.topbar {
+    background-color: blueviolet;
+    overflow: hidden;
+    margin-bottom: 90%;
+    position: static;
+    width: 100%;
+}
+
+.topbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.topright {
+    float: right;
+    text-align: center;
+    width: 125px;
+    height: 65px;
+}
+
+/* Still needs fixed */
+.sidenav { 
+    height: 100%;
+    top: 10.2%;
+    width: 12%;
+    position: fixed;
+    background-color: black;
+}
