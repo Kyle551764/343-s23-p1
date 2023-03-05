@@ -21,11 +21,19 @@
     height: 65px;
 }
 
-/* Still needs fixed */
+/*Still needs work, moves weird when screen size changes*/
 .sidenav { 
-    height: 100%;
-    top: 10.2%;
-    width: 12%;
+    height: 100px;
+    width: 150px;
     position: fixed;
+    top: 5.5%;
+    left: 0;
     background-color: black;
+    overflow: auto;
+    height: 100%;
+}
+
+.sidenav a { 
+    color: white;
+    text-align: center;
 }
