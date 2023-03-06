@@ -26,7 +26,6 @@
 .sidenav {
     width: 150px;
     min-height: 100%;
-    height: auto;
     position: absolute;
     z-index: 1;
     margin-left: -8px;
@@ -58,7 +57,6 @@ img {
 }
 
 .sbc {
-    justify-content: center;
     max-width: 30%;
 }
 
@@ -76,7 +74,7 @@ h1 {
     padding-right: 20px;
     margin-top: 0;
     margin-left: -20px;
-    margin-right: -20px;
+    margin-right: -18px;
     background-color: #CBB677;
 }
 
@@ -160,3 +158,14 @@ input[type=submit] {
 input[type=submit]:hover {
     opacity: 0.8;
 }
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:1px solid black;
+    width: 50%;
+
+}
+th, td {
+    border:1px solid black;
+  }
