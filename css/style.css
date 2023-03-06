@@ -24,8 +24,8 @@
 
 /*Still needs work, moves weird when screen size changes*/
 .sidenav {
-    width: 130px;
-    height: 100%;
+    width: 150px;
+    height: auto;
     position: absolute;
     z-index: 1;
     margin-left: -8px;
@@ -35,7 +35,7 @@
 }
 
 .main {
-    margin-left: 130px; /* Same as the width of the sidenav */
+    margin-left: 150px; /* Same as the width of the sidenav */
     padding: 0px 10px;
   }
 
@@ -43,6 +43,11 @@
 .sidenav a {
     color: white;
     text-align: center;
+}
+
+.sidenav p {
+    color: white;
+    font-size: small;
 }
 
 img {
@@ -59,6 +64,17 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: #CBB677;
+}
+h3 {
+    color: white;
+    text-align: center;
 }
 
 body p {
@@ -71,5 +87,5 @@ body p {
 }
 
 div p {
-    color: white;
+    color: black;
 }
