@@ -107,6 +107,12 @@ div p {
     border-radius: 27px;
 }
 
+form {
+    border: 4px solid lightgrey;
+    width: 40%;
+    text-align: center;
+}
+
 /*Handling mobile website layout */
 @media screen and (max-width:800px) {
     .sidenav {
@@ -119,12 +125,13 @@ div p {
     .main {
         margin-left: 0px;
     }
-}
 
-form {
-    border: 4px solid lightgrey;
-    width: 40%;
-    text-align: center;
+    form {
+        border: 4px solid lightgrey;
+        width:70%;
+        text-align: center;
+    }
+
 }
 
 .container {
