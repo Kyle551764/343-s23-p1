@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!--Top header-->
   <header>
     <div class="topbar">
       <a href="index.html">Home</a>
@@ -95,6 +96,7 @@
     Women's sports include basketball, cross country, field hockey, golf, indoor track & field, lacrosse, outdoor track
     & field, soccer, softball, swimming & diving, tennis and volleyball. The following statement is from the sunbelt confrenses official website.
   </p>
+  <!--Newsletter Form-->
   <h1 class="home">Newsletter</h1>
   <div class="mid">
     <form action="action_page.php">
@@ -105,8 +107,10 @@
       <img src="images/campusJMU.png" alt="JMU Campus">
 
       <div class="container" style="background-color:white">
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="email" placeholder="Email address" name="email" required>
+        <label for="news-name">Name: </label>
+        <input type="text" placeholder="Name" name="name" id= "news-name" required>
+        <label for="news-mail"><br>Email: </label>
+        <input type="email" placeholder="Email address" name="email" id= "news-mail" required>
       </div>
 
       <div class="container">

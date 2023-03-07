@@ -4,7 +4,7 @@
     margin-top: -10px;
     margin-left: -10px;
     padding-right: 18px;
-    position: static;
+    position: static; /*Keep the topbar in a static position*/
     width: 100%;
 }
 
@@ -22,16 +22,16 @@
     height: 65px;
 }
 
-/*Still needs work, moves weird when screen size changes*/
+
 .sidenav {
     width: 150px;
-    min-height: 1350px;
-    position: absolute;
+    min-height: 1350px; /* Define min height to keep view consistant across screen sizes */
+    position: absolute; /* Give sidenav absolute positioning */
     z-index: 1;
     margin-left: -8px;
     background: black;
     overflow: hidden;
-    padding: 5px 0;
+    padding: 5px 0; /* Add padding */
 }
 
 .main {
@@ -158,7 +158,7 @@ input[type=checkbox] {
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #450084;
     color: white;
     border: none;
 }
